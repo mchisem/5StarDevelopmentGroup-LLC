@@ -3,3 +3,23 @@
     margin: 0;
     padding: 0;
 }
+
+/* navbar */
+#main-header {
+    background-color: #fff !important;
+    z-index: 999;
+    line-height: 23px;
+    font-weight: 500;
+    width: 100%;
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.1);
+}
+
+#logo {
+    display: inline-block;
+}
+
+.nav-link {
+    font-family: "Open Sans", Arial, sans-serif !important;
+    font: 14px !important;
+    padding: 0px 22px 0px 0px !important;
+}
