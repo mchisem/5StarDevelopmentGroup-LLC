@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+body {
+    background-color: #fff;
+}
+
 /* navbar */
 #main-header {
     background-color: #fff !important;
@@ -11,6 +15,8 @@
     line-height: 23px;
     font-weight: 500;
     width: 100%;
+    box-shadow: 0 1px 0 rgba(0,0,0,.1);
+    -moz-box-shadow: 0 1px 0 rgba(0,0,0,.1);
     -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.1);
 }
 
@@ -22,4 +28,96 @@
     font-family: "Open Sans", Arial, sans-serif !important;
     font: 14px !important;
     padding: 0px 22px 0px 0px !important;
+}
+
+section {
+    background-color: slategray;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    padding-top: 6.1%;
+    padding-bottom: 4.3%;
+}
+
+.row{
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.col-md-7 {
+    padding-left: 10% !important;
+    padding-top: 3% !important;
+}
+
+.col-md-7 h1 {
+    color:#ffd460!important;
+    letter-spacing: 2px !important;
+    line-height: 1.2em;
+    font-size: 80px !important;
+    text-transform: uppercase;
+    font-weight: 900 !important;
+    font-family: 'Lato', Helvetica, Arial, Lucida, sans-serif;
+    text-shadow: 0em .1em .6em rgba(0,0,0,.6)!important;
+}
+
+.col-md-7 p {
+    font-style: italic;
+    font-size: 20px;
+    color: #FFFF;
+    vertical-align: baseline;
+}
+
+.col-md-7 .btn {
+    text-decoration: none !important;
+    background-color: #fea30b;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: 'Lato', Helvetica, Arial, Lucida, sans-serif;
+    font-size: 16px;
+    border-radius: 0 !important;
+    border-width: 2px !important;
+    border-color: #fff;
+    color: white !important;
+    /* background: white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+}
+
+/* row-1 col-2 */
+.col-md-3 {
+    margin-left: 10%;
+}
+
+.text {
+    position: relative;
+    background-color: rgba(103,89,73,.64);
+    border-top: #fea30b 6px solid;
+    padding-top: 18px;
+    padding-right: 30px;
+    padding-bottom: 26px;
+    padding-left: 30px;
+    margin-top: 2.5%;
+    margin-bottom: -20px;
+    line-height: 2em;
+    font-size: 15px;
+}
+
+.col-md-3 h3 {
+    color: white;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 1.5em;
+    font-family: 'Lato', Helvetica, Arial, Lucida, sans-serif;
+
+}
+
+.col-md-3 p {
+    color: rgba(255,255,255,.7)!important;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
+.col-md-3 a {
+    color: white;
 }
