@@ -4,10 +4,6 @@
     padding: 0;
 }
 
-body {
-    background-color: #fff;
-}
-
 /* navbar */
 #main-header {
     background-color: #fff !important;
@@ -30,13 +26,28 @@ body {
     padding: 0px 22px 0px 0px !important;
 }
 
-section {
-    background-color: slategray;
+#s1 {
+    background-image: url(../images/fixed-homes/white-kitchen.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
     width: 100%;
     position: absolute;
     left: 0;
     padding-top: 6.1%;
-    padding-bottom: 4.3%;
+    padding-bottom: 4%;
+    z-index: -3;
+}
+
+#s1::after {
+    content: "";
+    z-index: 3;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .row{
@@ -59,6 +70,8 @@ section {
     font-weight: 900 !important;
     font-family: 'Lato', Helvetica, Arial, Lucida, sans-serif;
     text-shadow: 0em .1em .6em rgba(0,0,0,.6)!important;
+    z-index: 300;
+    position: relative;
 }
 
 .col-md-7 p {
@@ -66,6 +79,8 @@ section {
     font-size: 20px;
     color: #FFFF;
     vertical-align: baseline;
+    z-index: 300;
+    position: relative;
 }
 
 .col-md-7 .btn {
@@ -79,6 +94,8 @@ section {
     border-width: 2px !important;
     border-color: #fff;
     color: white !important;
+    z-index: 300;
+    position: relative;
     /* background: white;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; */
@@ -101,6 +118,8 @@ section {
     margin-bottom: -20px;
     line-height: 2em;
     font-size: 15px;
+    z-index: 300;
+    position: relative;
 }
 
 .col-md-3 h3 {
@@ -109,15 +128,69 @@ section {
     font-weight: 700;
     line-height: 1.5em;
     font-family: 'Lato', Helvetica, Arial, Lucida, sans-serif;
-
+    z-index: 300;
+    position: relative;
 }
 
 .col-md-3 p {
     color: rgba(255,255,255,.7)!important;
     margin-block-start: 1em;
     margin-block-end: 1em;
+    z-index: 300;
+    position: relative;
 }
 
 .col-md-3 a {
     color: white;
+    z-index: 300;
+    position: relative;
 }
+
+/* section 2 */
+#s2 {
+    height: 50vh;
+    position: absolute;
+    top: 90%;
+    text-align: center;
+    left: 0;
+    right: 0;
+    padding: 2%;
+}
+
+#s2 h2 {
+    font-size: 42px;
+    font-family: 'Lato', Helvetica, Arial, Lucida, sans-serif;
+}
+
+.carousel-slide {
+    position: relative;
+    background-image: url(../images/fixed-homes/fancy-white-kitchen.jpg);
+    height: 70vh;
+    background-size: 100%;
+    animation: slide 15s infinite;
+    margin: 5%;
+    text-align: center;
+  }
+
+@keyframes slide {
+    0% {background-image: url(../images/fixed-homes/blue-pathway.jpg);}
+    50% {background-image: url(../images/fixed-homes/cream-livingroom.jpg);}
+    75% {background-image: url(../images/fixed-homes/white-kitchen.jpg);}
+    100% {background-image: url(../images/fixed-homes/white-laundry.jpg);}
+}
+
+.btn-view-all-properties {
+    text-emphasis: none;
+    text-decoration: none;
+    color: white;
+    background-color: #fea30b;
+    text-transform: capitalize;
+    width: 200px;
+    text-align: center;
+    padding: 6px 20px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Lato', Helvetica, Arial, Lucida, sans-serif;
+}
+
+/* section 3 */
