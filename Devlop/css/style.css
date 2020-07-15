@@ -17,6 +17,11 @@
     -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.1);
 }
 
+.navbar img {
+    height: 11vh; 
+    width: 11vw;
+}
+
 #logo {
     display: inline-block;
 }
@@ -27,6 +32,7 @@
     padding: 0px 22px 0px 0px !important;
 }
 
+/* section 1 */
 #s1 {
     background-image: url(../images/fixed-homes/white-kitchen.jpg);
     background-repeat: no-repeat;
@@ -170,9 +176,11 @@
     background-image: url(../images/fixed-homes/fancy-white-kitchen.jpg);
     height: 70vh;
     background-size: 100%;
-    animation: slide 15s infinite;
-    margin: 5%;
-    margin-bottom: 4%;
+    animation: slide 10s infinite;
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 8.5%;
     text-align: center;
   }
 
@@ -181,6 +189,14 @@
     50% {background-image: url(../images/fixed-homes/cream-livingroom.jpg);}
     75% {background-image: url(../images/fixed-homes/white-kitchen.jpg);}
     100% {background-image: url(../images/fixed-homes/white-laundry.jpg);}
+}
+
+.carousel-item {
+    height: 80vh !important;
+}
+
+.d-block {
+    width: 100%;
 }
 
 .btn-view-all-properties {
@@ -226,24 +242,59 @@
 
 /* section 4 */
 #s4 {
-    background-color: darkslateblue;
+    background-image: url(../images/fixed-homes/white-kitchen.jpg);
     position: absolute;
     top: 315%;
     left: 0;
     right: 0;
     text-align: center;
-    padding: 7%;
-    padding-bottom: 9%;
+    justify-content: center;
+    align-content: center;
+    padding: 10%;
+    height: 70vh;
+    z-index: -1;
+    color: white;
 }
+
+#s4::after {
+    content: "";
+    z-index: 3;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#s4 .row {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-weight: 700;
+    z-index: 999;
+}
+
+#s4 .row p {
+    font-size: 25px;
+}
+
+#s4 .row a {
+    background-color: #fea30b;
+    padding: .5%;
+} 
 
 /* footer */
 footer {
     position: absolute;
-    top: 355%;
+    top: 375%;
     left: 0;
     right: 0;
-    height: 50vh;
-    background-color: #231a00!important;
+    height: 35vh;
+    background-color: #231a00 !important;
     padding: 5%;
 }
 

@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato',Helvetica,Arial,Lucida,sans-serif;
+}
+
+/* navbar */
+#main-header {
+    background-color: #fff !important;
+    position: fixed;
+    z-index: 999;
+    line-height: 23px;
+    font-weight: 500;
+    width: 100%;
+    box-shadow: 0 1px 0 rgba(0,0,0,.1);
+    -moz-box-shadow: 0 1px 0 rgba(0,0,0,.1);
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.1);
+}
+
+.navbar img {
+    height: 11vh; 
+    width: 11vw;
+}
+
+#logo {
+    display: inline-block;
+}
+
+.nav-link {
+    font-family: "Open Sans", Arial, sans-serif !important;
+    font: 14px !important;
+    padding: 0px 22px 0px 0px !important;
+}
+
+/* section 1 */
+#s1 {
+    position: absolute !important;
+    top: 14% !important;
+    left: 0;
+    right: 0;
+    height: 55vh !important;
+    text-align: center;
+    background-image: url(../images/renovations/Napa28.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+
+/* section 2 */
+#s2 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 77%;
+}
+
+#s2 h1 {
+    text-transform: uppercase;
+}
+
+#s2 h4 {
+    text-transform: uppercase;
+    color: #fea30b;
+}
+
+#house-facts {
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 16px !important;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em; 
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding: 0 !important;
+    margin-bottom: 4% !important;
+}
+
+#s2 p {
+    font-family: 'Lato', Helvetica, Arial, Lucida, sans-serif;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 18px;
+    line-height: 1.4em;
+    padding: 15%;
+    padding-top: 0;
+    padding-bottom: 0;
+}
