@@ -50,6 +50,18 @@ body {
     background-position: 50%;
 }
 
+#s1-ral {
+    position: absolute !important;
+    top: 14% !important;
+    left: 0;
+    right: 0;
+    height: 55vh !important;
+    text-align: center;
+    background-image: url(../images/renovations/raleigh-street.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+
 /* section 2 */
 #s2 {
     position: absolute;
