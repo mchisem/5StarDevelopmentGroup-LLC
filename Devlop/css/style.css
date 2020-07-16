@@ -186,6 +186,7 @@ body {
     background-image: url(../images/fixed-homes/fancy-white-kitchen.jpg);
     height: 70vh;
     background-size: 100%;
+    background-position: 50%;
     animation: slide 10s infinite;
     margin-top: 3%;
     margin-left: 5%;

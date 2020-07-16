@@ -92,9 +92,101 @@ body {
     padding: 1% 7% 2% 7%;
 }
 
+#s2 aside {
+    padding: 3%;
+    padding-top: 2%;
+}
+
+#s2 img {
+    height: 45vh;
+    padding-right: 3%;
+    float: left;
+}
+
+#s2 aside p {
+    border-left: 5px solid orange;
+    float: left;
+    width: 50%;
+    padding-left: .5% !important;
+}
+
+#s2 aside a {
+    text-decoration: underline;
+    color: #fea30b;
+    text-align: left;
+    font-size: 18px;
+}
+
+/* section 3 */
+#s3 {
+    position: absolute;
+    top: 142%;
+    left: 0;
+    border-top: 8px solid #fea30b;
+    border-bottom: 8px solid #fea30b;
+    text-align: center;
+    padding: 3% 5% 1% 5%;
+    background-image: url(../images/fixed-homes/fancy-white-kitchen.jpg);
+    background-size: cover;
+    background-position: 50%;
+    z-index: -1;
+}
+
+#s3::after {
+    content: '';
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 3;
+}
+
+#s3 h1,
+#s3 p {
+    position: relative !important;
+    color: white;
+    z-index: 999;
+}
+
+#s3 h1 {
+    text-transform: uppercase;
+}
+
+#s3 p {
+    font-size: 18px;
+}
+
+#credentials {
+    padding: 2% 5% 0% 5%;
+}
+
+.card {
+    background: none !important;
+}
+
+#credentials .fa {
+    color: #fea30b !important;
+    z-index: 999;
+    font-size: 96px;
+}
+
+.card-title {
+    color: white !important;
+    position: relative !important;
+    z-index: 999 !important;
+}
+
+.card-text {
+    font-size: 17px;
+}
+
 /* footer */
 footer {
     position: absolute;
+    top: 241.3%;
     left: 0;
     right: 0;
     height: 35vh;
