@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+
 /* navbar */
 #main-header {
     background-color: #fff !important;
@@ -105,9 +109,11 @@
     color: white !important;
     z-index: 300;
     position: relative;
-    /* background: white;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; */
+}
+
+.col-md-7 .btn a {
+    text-decoration: none !important;
+    color: white !important;
 }
 
 /* row-1 col-2 */
@@ -298,11 +304,14 @@ footer {
     right: 0;
     height: 35vh;
     background-color: #231a00 !important;
-    padding: 5%;
+    padding: 2%;
+    font-size: 14px;
+    font-family: 'Open Sans', Arial, sans-serif;
 }
 
 footer ul {
     float: right;
+    padding: 3%;
 }
 
 .footer-link {
@@ -313,4 +322,12 @@ footer ul {
 #yellow-footer-link {
     text-decoration: none;
     color: #fec526;
+    font-size: 18px !important;
+}
+
+footer img {
+    position: relative;
+    height: 30vh;
+    padding: 0 !important;
+    margin: 0 !important;
 }
