@@ -187,27 +187,26 @@ body {
     height: 70vh;
     background-size: 100%;
     background-position: 50%;
-    animation: slide 10s infinite;
+    animation: slide 10s infinite ease-in-out;
+    transition: ease-in-out;
     margin-top: 3%;
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 3%;
     text-align: center;
+    overflow: hidden;
   }
 
 @keyframes slide {
-    0% {background-image: url(../images/fixed-homes/blue-pathway.jpg);}
-    50% {background-image: url(../images/fixed-homes/cream-livingroom.jpg);}
-    75% {background-image: url(../images/fixed-homes/white-kitchen.jpg);}
-    100% {background-image: url(../images/fixed-homes/white-laundry.jpg);}
+    /* 0% {background-image: url(../images/fixed-homes/cream-livingroom.jpg);} */
+    25% {background-image: url(../images/fixed-homes/fancy-white-kitchen.jpg);}
+    50% {background-image: url(../images/renovations/raleigh-street.jpg);}
+    75% {background-image: url(../images/fixed-homes/fair5.jpg);}
+    100% {background-image: url(../images/fixed-homes/fair3.jpg);}
 }
 
 .carousel-item {
     height: 80vh !important;
-}
-
-.d-block {
-    width: 100%;
 }
 
 .btn-view-all-properties {
