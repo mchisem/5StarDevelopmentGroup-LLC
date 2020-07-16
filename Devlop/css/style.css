@@ -303,7 +303,7 @@ footer {
     left: 0;
     right: 0;
     height: 35vh;
-    background-color: #231a00 !important;
+    background-image: linear-gradient(black, #393e46);
     padding: 2%;
     font-size: 14px;
     font-family: 'Open Sans', Arial, sans-serif;

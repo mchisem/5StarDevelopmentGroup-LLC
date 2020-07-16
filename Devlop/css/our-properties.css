@@ -109,12 +109,15 @@ footer {
     left: 0;
     right: 0;
     height: 35vh;
-    background-color: #231a00 !important;
-    padding: 5%;
+    background-image: linear-gradient(black, #393e46);
+    padding: 2%;
+    font-size: 14px;
+    font-family: 'Open Sans', Arial, sans-serif;
 }
 
 footer ul {
     float: right;
+    padding: 3%;
 }
 
 .footer-link {
@@ -125,4 +128,11 @@ footer ul {
 #yellow-footer-link {
     text-decoration: none;
     color: #fec526;
+}
+
+footer img {
+    position: relative;
+    height: 30vh;
+    padding: 0 !important;
+    margin: 0 !important;
 }

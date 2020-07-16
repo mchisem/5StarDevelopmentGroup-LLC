@@ -91,3 +91,38 @@ body {
     font-size: 18px;
     padding: 1% 7% 2% 7%;
 }
+
+/* footer */
+footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 35vh;
+    background-image: linear-gradient(black, #393e46);
+    padding: 2%;
+    font-size: 14px;
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+
+footer ul {
+    float: right;
+    padding: 3%;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: white;
+}
+
+#yellow-footer-link {
+    text-decoration: none;
+    color: #fec526;
+    font-size: 18px !important;
+}
+
+footer img {
+    position: relative;
+    height: 30vh;
+    padding: 0 !important;
+    margin: 0 !important;
+}
