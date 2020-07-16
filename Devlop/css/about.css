@@ -4,6 +4,38 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Lato',Helvetica,Arial,Lucida,sans-serif;
+}
+
+/* navbar */
+#main-header {
+    background-color: #fff !important;
+    position: fixed;
+    z-index: 999;
+    line-height: 23px;
+    font-weight: 500;
+    width: 100%;
+    box-shadow: 0 1px 0 rgba(0,0,0,.1);
+    -moz-box-shadow: 0 1px 0 rgba(0,0,0,.1);
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.1);
+}
+
+.navbar img {
+    height: 11vh; 
+    width: 11vw;
+}
+
+#logo {
+    display: inline-block;
+}
+
+.nav-link {
+    font-family: "Open Sans", Arial, sans-serif !important;
+    font: 14px !important;
+    padding: 0px 22px 0px 0px !important;
+}
+
 /* section 1 */
 #s1 {
     position: absolute !important;
