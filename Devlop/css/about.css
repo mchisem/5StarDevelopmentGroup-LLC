@@ -61,3 +61,13 @@ body {
     display: block;
     background-color: rgba(0, 0, 0, 0.5);
 }
+
+#s1 h1 {
+    position: relative;
+    text-transform: uppercase !important;
+    color: #fea30b;
+    font-size: 42px;
+    z-index: 999;
+}
+
+/* section 2 */
