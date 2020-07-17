@@ -27,6 +27,14 @@ body {
     width: 11vw;
 }
 
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .navbar img {
+       height: 13vh;
+       width: 20vh;
+      }
+  }
+
 #logo {
     display: inline-block;
 }
