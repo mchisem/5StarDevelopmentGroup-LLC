@@ -148,9 +148,7 @@ img {
 }
 
 /* fairfield vertical image container */
-.image-vertical {
-    /* width: 464px; */
-    /* height: 100%; */
+.image.vertical {
     height: 35.5vh;
     margin-bottom: 2%;
 }
@@ -164,4 +162,51 @@ img {
     padding: .5%;
     font-weight: 600!important;
     font-size: 20px;
+}
+
+/* light box container */
+.hide {
+    display: none;
+}
+
+#back {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    align-content: center !important;
+    text-align: center !important;
+    background-color: black;
+    opacity: 0.7;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 6;
+}
+
+#content {
+    height: 100%;
+    width: 100%;
+    align-items: center !important;
+    text-align: center !important;
+    justify-content: center !important;
+}
+
+.modal-content {
+    position: fixed !important;
+    top: 19%;
+    height: 75vh;
+    width: 70% !important;
+    right: 15%;
+    justify-self: center !important;
+    z-index: 999;
+}
+
+#close {
+    position: fixed !important;
+    font-size: 30px !important;
+    z-index: 999;
+    top: 17%;
+    right: 10%;
+    font-weight: 700;
+    color: white;
 }
