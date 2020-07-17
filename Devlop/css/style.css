@@ -39,8 +39,8 @@ body {
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     .navbar img {
-       height: 12vh;
-       width: 14vh;
+       height: 13vh;
+       width: 20vh;
       }
   }
 
@@ -53,13 +53,6 @@ body {
     font: 14px !important;
     padding: 0px 22px 0px 0px !important;
 }
-
-@media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    #icon {
-        padding: 0;
-      }
-  }
 
 /* section 1 */
 #s1 {
