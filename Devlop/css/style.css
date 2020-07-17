@@ -69,7 +69,8 @@ body {
     z-index: -3;
 }
 
-@media all and (max-width: 600px) {
+@media all and (orientation : portrait) 
+{
     /* For mobile phones: */
     #s1 {
         top: 15%;
