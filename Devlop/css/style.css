@@ -477,6 +477,7 @@ footer {
             top: 511%;
             height: 50vh;
             width: 100%;
+            background-image: linear-gradient(#393e46, black);
         }
     }
 
@@ -502,3 +503,10 @@ footer img {
     padding: 0 !important;
     margin: 0 !important;
 }
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    footer img {
+       height: 25vh;
+      }
+  }
