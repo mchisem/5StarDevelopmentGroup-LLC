@@ -293,7 +293,9 @@ body {
 
 #s4 .row a {
     background-color: #fea30b;
-    padding: .5%;
+    padding: .5% 1% .5% 1%;
+    text-decoration: none;
+    color: white;
 } 
 
 /* footer */
