@@ -433,6 +433,16 @@ body {
         }
     }
 
+@media all and (max-width: 375px) {
+    /* For mobile phones: */
+    #s4 {
+        top: 552%;
+        height: 55vh;
+        padding: 0;
+        padding-top: 18%;
+    }  
+}
+
 #s4::after {
     content: "";
     z-index: 3;
@@ -521,6 +531,13 @@ footer {
         }
     }
 
+@media all and (max-width: 375px) {
+    /* For mobile phones: */
+    footer {
+        top: 607%;
+        margin-bottom: 0;
+    }  
+}
 footer ul {
     float: right;
     padding: 3%;
