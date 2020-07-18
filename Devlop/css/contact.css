@@ -8,7 +8,9 @@ body {
     font-family: 'Lato',Helvetica,Arial,Lucida,sans-serif;
 }
 
+/***************/
 /* navbar */
+/***************/
 #main-header {
     background-color: #fff !important;
     position: fixed;
@@ -44,7 +46,9 @@ body {
     padding: 0px 22px 0px 0px !important;
 }
 
+/***************/
 /* section 1 */
+/***************/
 #s1 {
     position: absolute !important;
     top: 14% !important;
@@ -78,7 +82,9 @@ body {
     z-index: 999;
 }
 
+/***************/
 /* section 2 */
+/***************/
 #s2 {
     position: absolute;
     left: 0;
@@ -125,7 +131,9 @@ body {
     font-size: 18px;
 }
 
+/***************/
 /* footer */
+/***************/
 footer {
     position: absolute;
     top: 143%;

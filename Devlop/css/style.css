@@ -8,7 +8,9 @@ body {
     font-family: 'Open Sans', Arial, sans-serif;
 }
 
+/***************/
 /* navbar */
+/***************/
 #main-header {
     background-color: #fff !important;
     position: fixed;
@@ -54,17 +56,19 @@ body {
     padding: 0px 22px 0px 0px !important;
 }
 
+/***************/
 /* section 1 */
+/***************/
 #s1 {
     background-image: url(../images/fixed-homes/white-kitchen.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
-    background-size: cover;
+    /* background-size: cover; */
     width: 100%;
     position: absolute;
     left: 0;
     padding-top: 6.1%;
-    padding-bottom: 4%;
+    padding-bottom: 5%;
     top: 14%;
     z-index: -3;
 }
@@ -105,7 +109,7 @@ body {
     color:#ffd460!important;
     letter-spacing: 2px !important;
     line-height: 1.2em;
-    font-size: 80px ;
+    font-size: 75px !important;
     text-transform: uppercase;
     font-weight: 900 !important;
     font-family: 'Lato', Helvetica, Arial, Lucida, sans-serif;
@@ -240,7 +244,7 @@ body {
 #s2 {
     height: 50vh;
     position: absolute;
-    top: 74% !important;
+    top: 87.5% !important;
     text-align: center;
     left: 0;
     right: 0;
@@ -256,7 +260,6 @@ body {
 
 #s2 h2 {
     font-size: 45px !important;
-    padding-bottom: 1.5%;
     font-family: 'Lato', Helvetica, Arial, Lucida, sans-serif;
 }
 
@@ -280,7 +283,7 @@ body {
 #s2 h1 {
     color: #fea30b;
     margin-top: 2.5%;
-    margin-bottom: 1.5%;
+    margin-bottom: 1%;
     font-size: 42px;
 }
 
@@ -355,14 +358,16 @@ body {
         }
     }
 
+/***************/
 /* section 3 */
+/***************/
 #s3 {
     position: absolute !important;
     width: 100%;
     left: 0;
     right: 0;
     text-align: center;
-    top: 227%;
+    top: 232%;
 }
 
 @media only screen and (max-width: 768px) {
@@ -387,7 +392,9 @@ body {
     border-radius: 0% !important;
 }
 
+/***************/
 /* section 4 */
+/***************/
 #s4 {
     background-image: url(../images/fixed-homes/white-kitchen.jpg);
     position: absolute;
@@ -489,7 +496,9 @@ body {
         }
     }
 
+/***************/
 /* footer */
+/***************/
 footer {
     position: absolute;
     top: 365%;
@@ -548,3 +557,33 @@ footer img {
        height: 25vh;
       }
   }
+
+/***************/
+/***************/
+/* media queries */
+/***************/
+/***************/
+
+/***************/
+/* navbar */
+/***************/
+
+/***************/
+/* section 1 */
+/***************/
+
+/***************/
+/* section 2 */
+/***************/
+
+/***************/
+/* section 3 */
+/***************/
+
+/***************/
+/* section 4 */
+/***************/
+
+/***************/
+/* footer */
+/***************/

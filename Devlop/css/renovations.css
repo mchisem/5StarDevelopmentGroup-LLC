@@ -9,7 +9,9 @@ body {
     font-family: 'Lato',Helvetica,Arial,Lucida,sans-serif;
 }
 
+/***************/
 /* navbar */
+/***************/
 #main-header {
     background-color: #fff !important;
     position: fixed;
@@ -45,7 +47,9 @@ body {
     padding: 0px 22px 0px 0px !important;
 }
 
+/***************/
 /* section 1 */
+/***************/
 #s1 {
     position: absolute !important;
     top: 14% !important;
@@ -82,7 +86,9 @@ body {
     background-position: top;
 }
 
+/***************/
 /* section 2 */
+/***************/
 #s2 {
     position: absolute;
     left: 0;
@@ -135,7 +141,9 @@ body {
     font-family: 'Open Sans', Arial, sans-serif;
 }
 
+/***************/
 /* section 3 */
+/***************/
 #s3 {
     position: absolute;
     left: 0;
@@ -172,7 +180,9 @@ img {
     font-size: 20px;
 }
 
+/***************/
 /* light box container */
+/***************/
 .hide {
     display: none;
 }
