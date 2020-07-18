@@ -44,8 +44,7 @@ body {
 #s1 {
     background-image: url(../images/fixed-homes/white-kitchen.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
-    /* background-size: cover; */
+    background-size: cover;
     width: 100%;
     position: absolute;
     left: 0;
