@@ -69,7 +69,7 @@ body {
     z-index: -3;
 }
 
-@media all and (min-width: 375px) {
+@media only screen and (max-width: 375px) {
     /* For mobile phones: */
     #s1 {
         top: 15%;
@@ -114,7 +114,7 @@ body {
     position: relative;
 }
 
-@media all and (min-width: 375px) {
+@media only screen and (min-width: 375px) {
     /* For mobile phones: */
     .col-md-7 h1 {
         font-size: 50px;
@@ -130,7 +130,7 @@ body {
     position: relative;
 }
 
-@media all and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
     /* For mobile phones: */
     .col-md-7 p {
         font-size: 18px;
@@ -153,7 +153,7 @@ body {
     position: relative;
 }
 
-@media all and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
     /* For mobile phones: */
     .col-md-7 .btn {
         font-size: 12px;
@@ -170,7 +170,7 @@ body {
     margin-left: 10%;
 }
 
-@media all and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
     /* For mobile phones: */
     .col-md-3 {
         margin: auto;
@@ -240,30 +240,23 @@ body {
 #s2 {
     height: 50vh;
     position: absolute;
-    top: 89.57%;
+    top: 74% !important;
     text-align: center;
     left: 0;
     right: 0;
-    padding: 2%;
+    padding: 2% !important;
 }
 
-@media all and (min-width: 375px) {
-    /* For mobile phones: */
-    #s2 {
-        top: 125%;
-      }
-  }
-
-@media only screen and (min-width: 500px) {
+@media only screen and (max-width: 768px) {
     /* For mobile phones: */
     #s2 {
         top: 140%;
       }
   }
 
-
 #s2 h2 {
-    font-size: 42px;
+    font-size: 45px !important;
+    padding-bottom: 1.5%;
     font-family: 'Lato', Helvetica, Arial, Lucida, sans-serif;
 }
 
@@ -276,16 +269,19 @@ body {
       }
   }
 
-@media all and (max-width: 375px) {
+@media only screen and (min-width: 375px) {
 /* For mobile phones: */
 #s2 h2 {
-    font-size: 30px;
-    padding: 3%;
+    /* font-size: 30px; */
+    padding: 1%;
     }
 }
 
 #s2 h1 {
     color: #fea30b;
+    margin-top: 2.5%;
+    margin-bottom: 1.5%;
+    font-size: 42px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -296,11 +292,11 @@ body {
       }
   }
 
-@media all and (max-width: 375px) {
+@media only screen and (max-width: 375px) {
 /* For mobile phones: */
 #s2 h1 {
     position: relative;
-    margin-bottom: 11%;
+    /* margin-bottom: 11%; */
     }
 }
 
@@ -313,7 +309,7 @@ body {
     animation: slide 10s infinite ease-in-out;
     transition: ease-in-out;
     background-repeat: no-repeat;
-    margin-top: 3%;
+    margin-top: 0%;
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 3%;
@@ -327,14 +323,7 @@ body {
         margin-top: -45%;
         margin-bottom: -42%;
     }
-}
-
-@media all and (max-width: 375px) {
-    /* For mobile phones: */
-    .carousel-slide {
-        margin-bottom: -30%;
-        }
-    }    
+}   
 
 @keyframes slide {
     /* 0% {background-image: url(../images/fixed-homes/cream-livingroom.jpg);} */
@@ -354,7 +343,7 @@ body {
     text-align: center;
     margin: 0;
     padding: 6px 20px;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 700;
     font-family: 'Lato', Helvetica, Arial, Lucida, sans-serif;
 }
@@ -380,14 +369,6 @@ body {
     /* For mobile phones: */
         #s3 {
             top: 209%;
-        }
-    }
-
-@media all and (max-width: 375px) {
-    /* For mobile phones: */
-    #s3 {
-        position: relative;
-        top: 240%;
         }
     }
 
@@ -433,7 +414,7 @@ body {
         }
     }
 
-@media all and (max-width: 375px) {
+@media only screen and (max-width: 375px) {
     /* For mobile phones: */
     #s4 {
         top: 552%;
@@ -531,7 +512,7 @@ footer {
         }
     }
 
-@media all and (max-width: 375px) {
+@media only screen and (max-width: 375px) {
     /* For mobile phones: */
     footer {
         top: 607%;
