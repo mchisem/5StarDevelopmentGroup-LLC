@@ -20,31 +20,33 @@
         <a class="navbar-brand" id="logo" href="./Index.html">
             <img src="./images/logos/5-Star-Logo.jpg" alt="compass-logo-png">
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
+    
+        <ul id="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link" href="./Index.html">Home</a>
+              <a class="nav-link" id="link-one" href="./Index.html">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="./our-properties.html" style="color: #fea30b;">Our Properties</a>
+              <a class="nav-link" id="link-two" href="./our-properties.html" style="color: #fea30b !important;">Our Properties</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="./about-us.html">About Us</a>
+              <a class="nav-link" id="link-three" href="./about-us.html">About Us</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="https://drive.google.com/file/d/1HeQQgsA9OOdzu0OacgBYyskewzDx-pJ-/view">Opportunities</a>
+              <a class="nav-link" id="link-four" href="https://drive.google.com/file/d/1HeQQgsA9OOdzu0OacgBYyskewzDx-pJ-/view">Opportunities</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="./contact.html">Contact</a>
-                </li>
-            </ul>
+              <a class="nav-link" id="link-five" href="./contact.html">Contact</a>
+            </li>
+        </ul>
+    
+        <div id="burger">
+            <div class="line-one"></div>
+            <div class="line-two"></div>
+            <div class="line-three"></div>
         </div>
     </nav>
 
+    <!-- div container -->
     <div class="container" id="full-page">
         <section class="section-1" id="s1-fairfield">
         </section>
@@ -81,18 +83,22 @@
             <img class="image vertical" src="./images/fixed-homes/fair10.jpg" alt="">
             <img class="image vertical" src="./images/fixed-homes/fair11.jpg" alt="">
 
-            <a href="#full-page">Back to Top <i class="fa fa-arrow-up"></i></a>
+            <a href="#s1-fairfield">Back to Top <i class="fa fa-arrow-up"></i></a>
         </section>
     </div>
 
-     <!-- light box container -->
-     <div id="back" class="hide"></div>
+    <!-- light box container -->
+    <div id="back" class="hide"></div>
 
-     <div class="hide" id="content">
-         <img class="modal-content" id="images1">
-         <span class="hide" id="close">&times;</span>
-     </div>
+    <div class="hide" id="content">
+        <img class="modal-content" id="images1">
+        <span class="hide" id="close">&times;</span>
+    </div>
 
+<script src="https://ajax.googleapis.com/ajax/libs/d3js/5.15.1/d3.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="./js/images.js"></script>
 </body>
 </html>

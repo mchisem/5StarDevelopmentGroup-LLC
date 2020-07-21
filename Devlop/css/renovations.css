@@ -7,6 +7,7 @@
 
 body {
     font-family: 'Lato',Helvetica,Arial,Lucida,sans-serif;
+    overflow-x: hidden;
 }
 
 /***************/
@@ -14,37 +15,50 @@ body {
 /***************/
 #main-header {
     background-color: #fff !important;
-    position: fixed;
-    z-index: 999;
+    position: fixed !important;
+    z-index: 999 !important;
     line-height: 23px;
     font-weight: 500;
     width: 100%;
-    box-shadow: 0 1px 0 rgba(0,0,0,.1);
+box-shadow: 0 1px 0 rgba(0,0,0,.1) !important;
     -moz-box-shadow: 0 1px 0 rgba(0,0,0,.1);
     -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.1);
 }
 
-.navbar img {
-    height: 11vh; 
-    width: 11vw;
+#navbar-nav {
+    color: rgba(0,0,0,.5) !important;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    display: flex !important;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
 }
 
-@media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    .navbar img {
-       height: 13vh;
-       width: 20vh;
-      }
-  }
+.navbar img {
+    height: 11vh !important; 
+    width: 11vw !important;
+}
 
 #logo {
-    display: inline-block;
+    display: inline-block !important;
 }
 
 .nav-link {
     font-family: "Open Sans", Arial, sans-serif !important;
     font: 14px !important;
+    display: block !important;
     padding: 0px 22px 0px 0px !important;
+}
+
+a {
+    text-decoration: none !important;
+    background-color: transparent !important;
+    color: rgba(0,0,0,.5) !important;
+}
+
+li {
+    text-align: -webkit-match-parent;
 }
 
 /***************/
@@ -60,6 +74,13 @@ body {
     background-image: url(../images/renovations/Napa28.jpg);
     background-size: cover;
     background-position: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    #s1 {
+        top: 17% !important;
+    }
 }
 
 #s1-ral {
@@ -133,9 +154,9 @@ body {
 }
 
 #s2 a {
-    background-color: #fea30b;
+    background-color: #fea30b !important;
     text-decoration: none;
-    color: white;
+    color: white !important;
     padding: .5%;
     font-size: 18px;
     font-family: 'Open Sans', Arial, sans-serif;
@@ -171,10 +192,10 @@ img {
 
 #s3 a {
     position: relative;
-    margin-top: auto;
-    background-color: #fea30b;
+    margin-top: 2%;
+    background-color: #fea30b !important;
     text-decoration: none;
-    color: white;
+    color: white !important;
     padding: .5%;
     font-weight: 600!important;
     font-size: 20px;
@@ -226,5 +247,112 @@ img {
     top: 17%;
     right: 10%;
     font-weight: 700;
-    color: white;
+    color: white !important;
+}
+
+/***************/
+/***************/
+/* media queries */
+/***************/
+/***************/
+
+/***************/
+/* navbar */
+/***************/
+#burger {
+    display: none;
+}
+
+#burger:hover{
+    cursor: pointer;
+}
+
+#burger div {
+    width: 25px;
+    height: 3px;
+    margin: 5px;
+    background-color: black;
+}
+
+@media only screen and (min-width: 992px) {
+.navbar-expand-lg #navbar-nav .nav-link {
+    padding-right: .5rem;
+    padding-left: .5rem;
+}
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    body {
+        overflow-x: hidden !important;
+    }
+
+    #main-header {
+        position: relative !important;
+        margin-top: 0% !important;
+        width: 100% !important;
+        margin: 0 !important;
+        top: 0% !important;
+        z-index: 999;
+        left: 0 !important;
+      }
+
+    .navbar img {
+        height: 13vh !important;
+        width: 21vh !important;
+    }
+
+    #navbar-nav {
+        position: absolute !important;
+        right: 0px !important;
+        height: 100vh !important;
+        width: 50%;
+        top: 16vh !important;
+        background-color: white;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        opacity: 0;
+        }      
+
+    .nav-link {
+        z-index: 999 !important;
+        font-size: 20px !important;
+        margin: 30.5% 0 30.5% 2% !important;
+    text-align: center !important;
+        }
+
+    #burger {
+        display: block !important;
+    }
+}
+
+.appear {
+    opacity: 1 !important;
+}
+
+/***************/
+/* section 3 */
+/***************/
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    #s3 {
+        position: relative;
+        margin-top: 180% !important;
+    }
+
+    img {
+        vertical-align: middle;
+        margin: auto;
+        height: 42vh !important;
+        margin: .5% 0 2% 0;
+    }
+
+    .image.vertical {
+        vertical-align: middle;
+        margin: auto;
+        height: 85.5vh !important;
+        margin: .5% 0 2% 0;
+    }
 }
