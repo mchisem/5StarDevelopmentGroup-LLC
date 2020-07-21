@@ -612,9 +612,8 @@ footer img {
     /* For mobile phones: */
         footer {
             top: 602%;
-            height: 50vh;
+            height: 30vh;
             width: 100%;
-            background-image: linear-gradient(#393e46, black);
         }
 
         footer img {
