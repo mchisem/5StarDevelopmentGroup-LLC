@@ -1,12 +1,15 @@
 // variable
-// var icon = document.querySelector("#icon");
-// var links = document.getElementById("links");
+var nav = $("#navbar-nav");
+var burger = $("#burger");
+var navLinks = $(".nav-link");
+var navActive = $(".nav-active");
+var appear = $(".appear");
 
-// icon.addEventListener('click', function(){
-//     if (links.style.display === "block") {
-//       links.style.display = "none";
-//     } else {
-//       links.style.display = "block";
-//     }
-// });
+const navAppear = () => {
+     burger.on('click', () => {
+        // console.log("help");
+        $(nav).toggleClass("appear", appear);
+     });
+}
 
+navAppear();
