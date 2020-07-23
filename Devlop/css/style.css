@@ -230,6 +230,7 @@ li {
   }
 
 @keyframes slide {
+    0% {background: url(../images/fixed-homes/fancy-white-kitchen.jpg);}
     25% {background-image: url(../images/fixed-homes/fancy-white-kitchen.jpg);}
     50% {background-image: url(../images/renovations/raleigh-street.jpg);}
     75% {background-image: url(../images/fixed-homes/fair5.jpg);}
