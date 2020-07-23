@@ -440,7 +440,7 @@ footer img {
         flex-direction: column !important;
         align-items: center !important;
         opacity: 0;
-        box-shadow: black 0px 5px 6px 0px;
+        box-shadow: left black 0px 5px 6px 0px;
 
     }      
 
