@@ -460,7 +460,7 @@ footer img {
     opacity: 1 !important;
 }
 
-@media only screen and (max-width: 863px) {
+@media only screen and (min-width: 863px) {
     /* For mobile phones: */
     #main-header {
         position: relative;
@@ -494,8 +494,35 @@ footer img {
 /***************/
 /* section 1 */
 /***************/
-@media only screen and (min-width: 375px)
- {
+@media only screen and (min-width: 320px) {
+    /* For mobile phones: */
+    #s1 {
+        top: 15%;
+        padding: 50px 0;
+        width: 100% !important;
+      }
+
+    .col-md-7 h1 {
+    font-size: 43px !important;
+    }
+    
+    .col-md-7 p {
+        font-size: 18px;
+      }
+
+    .col-md-7 .btn {
+        font-size: 13px;
+    }
+
+    .col-md-3 {
+        margin: auto;
+        margin-left: 4.5%;
+        margin-top: 10%;
+        max-width: 100%;
+    } 
+}
+
+@media only screen and (min-width: 375px) {
     /* For mobile phones: */
     #s1 {
         top: 15%;
@@ -514,50 +541,74 @@ footer img {
     .col-md-7 .btn {
         font-size: 13px;
     }
-  }
 
-  @media only screen and (min-width: 768px) {
-    .col-md-7 h1 {
-        font-size: 45px !important;
-    }
-  }
-
-/* row-1 col-2 */
-@media only screen and (max-width: 600px) {
-    /* For mobile phones: */
     .col-md-3 {
         margin: auto;
         margin-left: 4.5%;
         margin-top: 10%;
-      }
-  }
+        max-width: 100%;
+    }
+}
 
 @media only screen and (min-width: 768px) {
-    /* For mobile phones: */
+    .col-md-7 h1 {
+        font-size: 45px !important;
+    }
+
     .col-md-3 h3 {
         font-size: 20px;
-      }
+    }
 
     .text {
         margin: auto;
         font-size: 15px;
         margin-top: 4.5%;
     }
-  }
+}
 
 /***************/
 /* section 2 */
 /***************/
+@media only screen and (min-width: 320px) {
+    /* For mobile phones: */
+    #s2 {
+        top: 113% !important;
+    }
+    
+    #s2 h2 {
+        font-size: 35px !important;
+        text-align: center;
+        padding: 3%;
+    }
+
+    #s2 h1 {
+        text-align: center;
+        margin: 5% 0 5% 0 !important; 
+    }
+
+    .carousel-slide {
+        margin-top: -55% !important;
+        margin-bottom: -50% !important;
+    }
+
+    .btn-view-all-properties {
+        position: relative;
+        color: white !important;
+        background-color: #fea30b !important;
+        font-size: 15px;
+    }
+}
+
 @media only screen and (min-width: 375px) {
     /* For mobile phones: */
     #s2 h1 {
         position: relative;
-        }
+    }
     
     #s2 h2 {
         padding: 1%;
-        }
     }
+}
 
 @media only screen and (min-width: 384px) {
     /* For mobile phones: */
