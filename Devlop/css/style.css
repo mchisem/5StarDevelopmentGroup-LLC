@@ -214,11 +214,11 @@ li {
 
 .carousel-slide {
     position: relative;
-    background-image: url(../images/fixed-homes/fancy-white-kitchen.jpg);
+    /* background-image: url(../images/fixed-homes/fancy-white-kitchen.jpg); */
     height: 70vh;
     background-size: 100%;
     background-position: 50%;
-    animation: slide 10s infinite ease-in-out;
+    animation: slide 11s infinite ease-in-out;
     transition: ease-in-out;
     background-repeat: no-repeat;
     margin-top: 0%;
