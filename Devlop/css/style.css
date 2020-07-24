@@ -587,9 +587,11 @@ footer img {
 /* footer */
 /***************/
 @media only screen and (max-width: 768px) {
+    body {
+        background-color: blueviolet;
+    }
     footer {
         top: 555%;
-        background-image: linear-gradient(blue, green) !important;
     }
 
     .footer-link {
