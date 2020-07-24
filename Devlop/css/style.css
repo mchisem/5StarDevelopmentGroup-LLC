@@ -472,6 +472,7 @@ footer img {
     /* For mobile phones: */
     #s1 {
         top: 16% !important;
+        padding: 1%;
     }
 
     #s1 h1 {
@@ -537,7 +538,7 @@ footer img {
     body {
         background-color: cadetblue !important;
     }
-    
+
     #s4 {
         top: 586% !important;
         margin: auto;
