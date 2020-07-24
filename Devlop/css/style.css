@@ -522,8 +522,12 @@ footer img {
     /* For mobile phones: */
     #s2 {
         top: 105% !important;
-        padding-top: 5%;
     }
+
+    .carousel-slide {
+        margin-top: -43% !important;
+        margin-bottom: -41%;
+      }
 }
 
 @media only screen and (max-width: 768px) {
