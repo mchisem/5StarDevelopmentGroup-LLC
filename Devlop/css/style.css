@@ -510,7 +510,6 @@ footer img {
     .col-md-3 {
         display: block;
         margin: auto;
-        margin-left: 5%;
         width: 100%;
         padding: 18px 30px 26px;
     }
@@ -522,7 +521,7 @@ footer img {
 @media only screen and (max-width: 375px) {
     /* For mobile phones: */
     #s2 {
-        top: 110%;
+        top: 105% !important;
         padding-top: 5%;
     }
 }
