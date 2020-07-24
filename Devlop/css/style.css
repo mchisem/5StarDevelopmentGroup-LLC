@@ -471,8 +471,7 @@ footer img {
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     #s1 {
-        top: 16% !important;
-        padding: 1%;
+        top: 17% !important;
     }
 
     #s1 h1 {
@@ -499,7 +498,7 @@ footer img {
 /***************/
 @media only screen and (max-width: 768px) {
     #s2 {
-        top: 104% !important;
+        top: 120% !important;
         width: 100%;
     }
 
@@ -553,7 +552,7 @@ footer img {
 /***************/
 @media only screen and (max-width: 768px) {
     body {
-        background-color: cadetblue !important;
+        background-color: skyblue !important;
     }
 
     footer {
