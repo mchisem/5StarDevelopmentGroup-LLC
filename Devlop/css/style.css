@@ -550,10 +550,6 @@ footer img {
 /* footer */
 /***************/
 @media only screen and (max-width: 768px) {
-    body {
-        background-color: yellow !important;
-    }
-
     footer {
         top: 655% !important;
         background-image: linear-gradient(#393e46, black) !important;
