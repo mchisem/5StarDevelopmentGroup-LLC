@@ -518,8 +518,7 @@ footer img {
 /***************/
 /* section 2 */
 /***************/
-@media only screen and (max-width: 375px) {
-    /* For mobile phones: */
+/* @media only screen and (max-width: 375px) {
     #s2 {
         top: 105% !important;
     }
@@ -528,10 +527,9 @@ footer img {
         margin-top: -43% !important;
         margin-bottom: -41%;
       }
-}
+} */
 
-@media only screen and (max-width: 768px) {
-    /* For mobile phones: */
+/* @media only screen and (max-width: 768px) {
     #s2 {
         top: 100%;
         width: 100%;
@@ -541,12 +539,11 @@ footer img {
         margin-top: -43%;
         margin-bottom: -41%;
       }
-}
+} */
 
 @media only screen and (max-width: 900px) {
-    /* For mobile phones: */
     #s2 {
-        top: 91%;
+        top: 103% !important;
         width: 100%;
     }
 
