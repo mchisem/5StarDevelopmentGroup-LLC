@@ -535,10 +535,6 @@ footer img {
 /* section 4 */
 /***************/
 @media only screen and (max-width: 768px) {
-    body {
-        background-color: cadetblue !important;
-    }
-
     #s4 {
         top: 586% !important;
         margin: auto;
@@ -556,6 +552,10 @@ footer img {
 /* footer */
 /***************/
 @media only screen and (max-width: 768px) {
+    body {
+        background-color: cadetblue !important;
+    }
+
     footer {
         top: 655% !important;
         background-image: linear-gradient(#393e46, black) !important;
