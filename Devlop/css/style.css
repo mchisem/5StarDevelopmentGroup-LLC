@@ -219,10 +219,7 @@ li {
     background-size: 100%;
     background-position: 50%;
     background-repeat: no-repeat;
-    margin-top: 0%;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 3%;
+    margin: 1% 5% 3% 5%;
     text-align: center;
     overflow: hidden;
     animation: slide 11s infinite ease-in-out;
@@ -518,4 +515,9 @@ footer img {
     #s2 {
         top: 100%;
     }
+
+    .carousel-slide {
+        margin-top: -43%;
+        margin-bottom: -41%;
+      }
 }
