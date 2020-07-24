@@ -290,6 +290,7 @@ li {
 /***************/
 #s4 {
     background-image: url(../images/fixed-homes/white-kitchen.jpg);
+    max-width: 100%;
     position: absolute;
     top: 314%;
     left: 0;
@@ -303,7 +304,6 @@ li {
     height: 70vh;
     z-index: -1;
     color: white;
-    max-width: 100%;
 }
 
 #s4::after {
@@ -330,6 +330,7 @@ li {
 
 #s4 h1 {
     text-align: center;
+    margin: auto;
     font-size: 40px !important;
     font-weight: 400!important;
     letter-spacing: 2px!important;
@@ -338,6 +339,7 @@ li {
 }
 
 #s4 .row p {
+    margin: auto;
     text-align: center;
     font-size: 20px;
     max-width: 100%;
@@ -538,16 +540,15 @@ footer img {
       }
 }
 
-@media only screen and (max-width: 980px) {
+@media only screen and (max-width: 900px) {
     /* For mobile phones: */
     #s2 {
-        top: 100%;
+        top: 91%;
         width: 100%;
     }
 
     .carousel-slide {
-        margin-top: -43%;
-        margin-bottom: -41%;
+        margin-top: 0%;
       }
 }
 
@@ -562,6 +563,7 @@ footer img {
     }
 }
 
+
 /***************/
 /* section 4 */
 /***************/
@@ -571,6 +573,13 @@ footer img {
         top: 486%;
         margin: auto;
         padding: 1%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    /* For mobile phones: */
+    #s4 {
+        top: 325%;
     }
 }
 
@@ -589,5 +598,12 @@ footer img {
 
     footer img {
         height: 18vh;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    /* For mobile phones: */
+    footer {
+        top: 395%;
     }
 }
