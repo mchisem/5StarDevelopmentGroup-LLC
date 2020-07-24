@@ -517,6 +517,14 @@ footer img {
 /***************/
 /* section 2 */
 /***************/
+@media only screen and (max-width: 375px) {
+    /* For mobile phones: */
+    #s2 {
+        top: 110%;
+        padding-top: 5%;
+    }
+}
+
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     #s2 {
