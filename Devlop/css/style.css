@@ -589,7 +589,7 @@ footer img {
 @media only screen and (max-width: 768px) {
     footer {
         top: 555%;
-        background-image: linear-gradient(blue, green);
+        background-image: linear-gradient(blue, green) !important;
     }
 
     .footer-link {
