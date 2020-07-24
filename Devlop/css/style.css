@@ -197,7 +197,7 @@ li {
     text-align: center;
     left: 0;
     right: 0;
-    padding: 2% !important;
+    padding: 2%;
     max-width: 100%;
 }
 
@@ -529,9 +529,9 @@ footer img {
       }
 } */
 
-/* @media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     #s2 {
-        top: 100%;
+        top: 104% !important;
         width: 100%;
     }
 
@@ -539,7 +539,7 @@ footer img {
         margin-top: -43%;
         margin-bottom: -41%;
       }
-} */
+}
 
 /* @media only screen and (max-width: 900px) {
     #s2 {
