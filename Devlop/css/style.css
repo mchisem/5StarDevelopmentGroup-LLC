@@ -496,17 +496,6 @@ footer img {
 /***************/
 /* section 2 */
 /***************/
-/* @media only screen and (max-width: 375px) {
-    #s2 {
-        top: 105% !important;
-    }
-
-    .carousel-slide {
-        margin-top: -43% !important;
-        margin-bottom: -41%;
-      }
-} */
-
 @media only screen and (max-width: 768px) {
     #s2 {
         top: 104% !important;
@@ -566,7 +555,7 @@ footer img {
 /***************/
 @media only screen and (max-width: 768px) {
     footer {
-        top: 555% !important;
+        top: 655% !important;
         background-image: linear-gradient(#393e46, black) !important;
     }
 
