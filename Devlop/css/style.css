@@ -566,7 +566,7 @@ footer img {
 /***************/
 @media only screen and (max-width: 768px) {
     body {
-        background-color: blueviolet;
+        background-color: blueviolet !important;
     }
     footer {
         top: 555%;
