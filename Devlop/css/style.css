@@ -530,21 +530,18 @@ footer img {
     }
 }
 
-
 /***************/
 /* section 4 */
 /***************/
 @media only screen and (max-width: 768px) {
-    /* For mobile phones: */
     #s4 {
-        top: 486% !important;
+        top: 586% !important;
         margin: auto;
         padding: 1%;
     }
 }
 
 @media only screen and (max-width: 900px) {
-    /* For mobile phones: */
     #s4 {
         top: 325%;
     }
