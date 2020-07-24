@@ -361,7 +361,7 @@ footer {
     top: 375%;
     left: 0;
     right: 0;
-    height: 36vh;
+    height: 35vh;
     background-image: linear-gradient(black, #393e46);
     padding: 2%;
     font-size: 14px;
@@ -570,6 +570,8 @@ footer img {
     }
     footer {
         top: 555% !important;
+        background-image: linear-gradient(#393e46, black) !important;
+        /* margin-bottom: 0 !important; */
     }
 
     .footer-link {
@@ -580,10 +582,9 @@ footer img {
         height: 18vh;
     }
 }
-
+/* 
 @media only screen and (max-width: 900px) {
-    /* For mobile phones: */
     footer {
         top: 395%;
     }
-}
+} */
