@@ -494,28 +494,6 @@ footer img {
 }
 
 /***************/
-/* section 1 */
-/***************/
-@media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    #s1 {
-        top: 17% !important;
-        width: 100%;
-    }
-    
-    #s1 h1 {
-        font-size: 46px;
-    }
-
-    .col-md-3 {
-        display: block;
-        margin: auto;
-        width: 100%;
-        padding: 18px 30px 26px;
-    }
-}
-
-/***************/
 /* section 2 */
 /***************/
 /* @media only screen and (max-width: 375px) {
