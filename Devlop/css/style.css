@@ -569,7 +569,7 @@ footer img {
         background-color: blueviolet !important;
     }
     footer {
-        top: 555%;
+        top: 555% !important;
     }
 
     .footer-link {
