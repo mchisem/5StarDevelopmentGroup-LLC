@@ -534,7 +534,7 @@ footer img {
 /***************/
 @media only screen and (max-width: 768px) {
     #s4 {
-        top: 586% !important;
+        top: 600% !important;
         margin: auto;
         padding: 1%;
     }
@@ -551,7 +551,7 @@ footer img {
 /***************/
 @media only screen and (max-width: 768px) {
     footer {
-        top: 655% !important;
+        top: 700% !important;
         background-image: linear-gradient(#393e46, black) !important;
     }
 
