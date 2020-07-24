@@ -203,6 +203,7 @@ li {
 #s2 h2 {
     font-size: 48px;
     font-family: 'Lato', Helvetica, Arial, Lucida, sans-serif;
+    padding-bottom: 2.5%;
 }
 
 #s2 h1 {
@@ -219,7 +220,7 @@ li {
     background-size: 100%;
     background-position: 50%;
     background-repeat: no-repeat;
-    margin: 1% 5% 3% 5%;
+    margin: 2% 5% 4% 5%;
     text-align: center;
     overflow: hidden;
     animation: slide 11s infinite ease-in-out;
@@ -242,10 +243,10 @@ li {
     width: 200px;
     text-align: center;
     margin: 0;
-    padding: 6px 20px;
+    padding: 10px 20px;
     font-size: 25px;
     font-weight: 700;
-    font-family: 'Lato', Helvetica, Arial, Lucida, sans-serif;
+    font-family: 'Open sans', Arial, sans-serif;
 }
 
 /***************/
@@ -261,6 +262,7 @@ li {
 }
 
 #s3 h1 {
+    padding-top: 4%;
     color: #fea30b !important;
     text-transform: uppercase !important;
 }
@@ -287,7 +289,7 @@ li {
 #s4 {
     background-image: url(../images/fixed-homes/white-kitchen.jpg);
     position: absolute;
-    top: 300%;
+    top: 302%;
     left: 0;
     right: 0;
     text-align: center;
