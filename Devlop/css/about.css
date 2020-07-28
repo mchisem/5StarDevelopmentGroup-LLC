@@ -364,9 +364,10 @@ footer img {
     }
 
     #s2 img {
-        padding-left: 4%;
+        /* padding-left: 4%; */
         padding-bottom: 3%;
-        height: 37vh;
+        height: 30vh;
+        max-width: 100%;
     }
 
     #s2 aside p {
