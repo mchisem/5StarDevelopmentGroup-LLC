@@ -551,7 +551,7 @@ footer img {
 /***************/
 @media only screen and (max-width: 768px) {
     footer {
-        top: 690% !important;
+        top: 685% !important;
     }
 
     .footer-link {
