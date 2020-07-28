@@ -539,6 +539,10 @@ footer img {
         justify-content: center !important;
         align-items: center !important;
     }
+
+    #s4 .row p {
+        padding-bottom: 1%;
+    }
 }
 
 /***************/
