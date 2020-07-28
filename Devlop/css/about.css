@@ -365,14 +365,13 @@ footer img {
     }
 
     #s2 img {
-        /* padding-left: 4%; */
         padding-bottom: 3%;
         height: 27vh;
         max-width: 100%;
     }
 
     #s2 aside p {
-        font-size: 18px;
+        font-size: 17px;
         width: 100%;
         clear: both;
         padding: 0;
