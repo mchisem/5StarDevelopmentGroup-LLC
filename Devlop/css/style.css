@@ -535,7 +535,7 @@ footer img {
         margin: auto;
         height: 50vh;
         padding: 1%;
-        padding-left: 2%;
+        /* padding-left: 2%; */
         text-align: center;
     }
 
