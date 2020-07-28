@@ -504,11 +504,10 @@ footer img {
 
     .carousel-slide {
         margin-top: -43%;
-        margin-bottom: -45%;
+        margin-bottom: -39%;
       }
     
     .btn-view-all-properties {
-        margin-top: 2%;
         font-size: 17px;
     }
 }
