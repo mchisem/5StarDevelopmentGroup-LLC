@@ -266,7 +266,7 @@ footer img {
 /***************/
 @media only screen and (max-width: 768px) {
     #s1 {
-        top: 19.5%;
+        top: 19.5% !important;
         padding-top: 25%;
         text-align: center !important;
         align-items: center !important;
@@ -285,7 +285,7 @@ footer img {
     #s2 {
         top: 60%;
     }
-    
+
     #s2 aside h4 {
         font-size: 19px;
         padding-bottom: 6%;
