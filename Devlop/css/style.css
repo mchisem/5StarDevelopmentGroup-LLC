@@ -531,7 +531,7 @@ footer img {
 /***************/
 @media only screen and (max-width: 768px) {
     #s4 {
-        top: 617% !important;
+        top: 616% !important;
         margin: auto;
         height: 50vh;
         padding: 1%;
@@ -539,11 +539,6 @@ footer img {
         justify-content: center !important;
         align-items: center !important;
     }
-
-    /* #s4 .row p {
-        margin-left: 1%;
-        padding-left: 1%;
-    } */
 }
 
 /***************/
