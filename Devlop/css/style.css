@@ -531,7 +531,7 @@ footer img {
 /***************/
 @media only screen and (max-width: 768px) {
     #s4 {
-        top: 620% !important;
+        top: 617% !important;
         margin: auto;
         height: 50vh;
         padding: 1%;
@@ -549,19 +549,12 @@ footer img {
 
 }
 
-/* @media only screen and (max-width: 900px) {
-    #s4 {
-        top: 325%;
-        height: 50vh;
-    }
-} */
-
 /***************/
 /* footer */
 /***************/
 @media only screen and (max-width: 768px) {
     footer {
-        top: 700% !important;
+        top: 690% !important;
     }
 
     .footer-link {
