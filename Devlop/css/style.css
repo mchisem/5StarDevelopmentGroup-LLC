@@ -535,13 +535,15 @@ footer img {
         margin: auto;
         height: 50vh;
         padding: 1%;
-        text-align: center;
+        text-align: center !important;
+        justify-content: center !important;
+        align-items: center !important;
     }
 
-    #s4 .row p {
+    /* #s4 .row p {
         margin-left: 1%;
         padding-left: 1%;
-    }
+    } */
 }
 
 /***************/
