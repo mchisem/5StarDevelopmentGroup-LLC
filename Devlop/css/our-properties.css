@@ -254,8 +254,8 @@ footer img {
         top: 20%;
         padding: 25%;
         text-align: center !important;
-        align-items: center;
-        justify-content: center;
+        align-items: center !important;
+        justify-content: center !important;
     }
 
     #s1 h1 {
@@ -277,7 +277,7 @@ footer img {
 /***************/
 @media only screen and (max-width: 768px) {
     footer {
-        top: 500% !important;
+        top: 300% !important;
     }
 
     .footer-link {
@@ -285,6 +285,6 @@ footer img {
     }
 
     footer img {
-        height: 16vh;
+        height: 15vh;
     }
 }
