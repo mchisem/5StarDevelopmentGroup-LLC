@@ -512,17 +512,6 @@ footer img {
     }
 }
 
-/* @media only screen and (max-width: 900px) {
-    #s2 {
-        top: 103% !important;
-        width: 100%;
-    }
-
-    .carousel-slide {
-        margin-top: 0%;
-      }
-} */
-
 /***************/
 /* section 3 */
 /***************/
@@ -551,6 +540,8 @@ footer img {
 
     #s4 .row p {
         margin: auto;
+        margin-left: 1%;
+        padding-left: 1%;
         text-align: center;
         max-width: 100%;
     }
