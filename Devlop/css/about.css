@@ -335,7 +335,7 @@ footer img {
 /***************/
 @media only screen and (max-width: 768px) {
     #s1 {
-        top: 20%;
+        top: 25%;
         padding: 25%;
         text-align: center !important;
         align-items: center !important;
