@@ -539,7 +539,7 @@ footer img {
 @media only screen and (max-width: 768px) {
     #s4 {
         top: 620% !important;
-        margin: auto;
+        /* margin: auto; */
         padding: 1%;
     }
 }
