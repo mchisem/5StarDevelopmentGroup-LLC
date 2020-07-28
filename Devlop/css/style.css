@@ -506,6 +506,11 @@ footer img {
         margin-top: -43%;
         margin-bottom: -41%;
       }
+    
+    .btn-view-all-properties {
+        margin-top: 1%;
+        font-size: 20px;
+    }
 }
 
 /* @media only screen and (max-width: 900px) {
@@ -525,7 +530,7 @@ footer img {
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     #s3 {
-        top: 285%;
+        top: 280%;
         background-color: thistle;
     }
 
