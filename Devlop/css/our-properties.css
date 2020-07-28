@@ -257,11 +257,6 @@ footer img {
         align-items: center !important;
         justify-content: center !important;
     }
-
-    #s1 h1 {
-        z-index: 999;
-        padding: 0;
-    }
 }
 
 /***************/
