@@ -260,6 +260,7 @@ footer img {
 
     #s1 h1 {
         z-index: 999;
+        padding: 0;
     }
 }
 
