@@ -257,6 +257,15 @@ footer img {
 }
 
 /***************/
+/* section 2 */
+/***************/
+@media only screen and (max-width: 768px) {
+    #s2 {
+        top: 54%;
+    }
+}
+
+/***************/
 /* footer */
 /***************/
 @media only screen and (max-width: 768px) {
