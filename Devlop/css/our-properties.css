@@ -251,8 +251,15 @@ footer img {
 /***************/
 @media only screen and (max-width: 768px) {
     #s1 {
-        top: 18%;
+        top: 20%;
         padding: 25%;
+        text-align: center !important;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #s1 h1 {
+        z-index: 999;
     }
 }
 
@@ -261,7 +268,7 @@ footer img {
 /***************/
 @media only screen and (max-width: 768px) {
     #s2 {
-        top: 54%;
+        top: 56%;
     }
 }
 
