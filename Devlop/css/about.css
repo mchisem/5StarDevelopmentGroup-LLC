@@ -354,7 +354,7 @@ footer img {
     #s2 {
         top: 60%;
         padding: 2%;
-        align-items: center;
+        align-items: center !important;
         justify-content: center;
         text-align: center;
     }
@@ -367,7 +367,7 @@ footer img {
     #s2 img {
         /* padding-left: 4%; */
         padding-bottom: 3%;
-        height: 25vh;
+        height: 27vh;
         max-width: 100%;
     }
 
