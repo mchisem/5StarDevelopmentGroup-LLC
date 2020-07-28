@@ -533,6 +533,7 @@ footer img {
     #s4 {
         top: 620% !important;
         margin: auto;
+        height: 50vh;
         padding: 1%;
         padding-left: 2%;
         text-align: center;
@@ -548,12 +549,12 @@ footer img {
 
 }
 
-@media only screen and (max-width: 900px) {
+/* @media only screen and (max-width: 900px) {
     #s4 {
         top: 325%;
         height: 50vh;
     }
-}
+} */
 
 /***************/
 /* footer */
