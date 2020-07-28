@@ -525,7 +525,7 @@ footer img {
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     #s3 {
-        top: 300%;
+        top: 350%;
     }
 
     #s3 h1 {
@@ -539,8 +539,9 @@ footer img {
 @media only screen and (max-width: 768px) {
     #s4 {
         top: 620% !important;
-        /* margin: auto; */
+        margin: auto;
         padding: 1%;
+        padding-left: 2%;
     }
 }
 
