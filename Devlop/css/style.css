@@ -551,6 +551,7 @@ footer img {
 @media only screen and (max-width: 900px) {
     #s4 {
         top: 325%;
+        height: 50vh;
     }
 }
 
