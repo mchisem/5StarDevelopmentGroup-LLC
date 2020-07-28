@@ -353,11 +353,12 @@ footer img {
 @media only screen and (max-width: 768px) {
     #s2 {
         top: 60%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
     }
-}
 
-@media only screen and (max-width: 768px) {
-    #s2 aside h4{
+    #s2 aside h4 {
         font-size: 19px;
         padding-bottom: 6%;
     }
