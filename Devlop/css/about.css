@@ -383,7 +383,7 @@ footer img {
 /***************/
 @media only screen and (max-width: 768px) {
     #s3 {
-        top: 230%;
+        top: 233%;
     }
 }
 
@@ -394,7 +394,7 @@ footer img {
     footer {
         top: 610%;
         margin-bottom: 0;
-        height: 30vh;
+        height: 31vh;
         width: 100%;
         background-image: linear-gradient(#393e46, black);
     }
