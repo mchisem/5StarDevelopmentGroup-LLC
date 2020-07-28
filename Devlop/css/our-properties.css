@@ -273,7 +273,7 @@ footer img {
 /***************/
 @media only screen and (max-width: 768px) {
     footer {
-        top: 380% !important;
+        top: 390% !important;
         background-image: linear-gradient(#393e46, black);
     }
 
