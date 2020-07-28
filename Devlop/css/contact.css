@@ -307,13 +307,18 @@ footer img {
 /***************/
 @media only screen and (max-width: 768px) {
     footer {
-        top: 171%;
+        top: 186%;
         margin-bottom: 0;
         height: 30vh;
         width: 100%;
+        background-image: linear-gradient(#393e46, black);
+    }
+
+    .footer-link {
+        font-size: 13px;
     }
 
     footer img {
-        height: 25vh;
+        height: 15vh;
        }
 }
