@@ -260,13 +260,15 @@ footer img {
 /***************/
 @media only screen and (max-width: 768px) {
     footer {
-        top: 373%;
-        margin-bottom: 0;
-        height: 30vh;
-        width: 100%;
+        top: 700% !important;
+        background-image: linear-gradient(#393e46, black) !important;
+    }
+
+    .footer-link {
+        font-size: 13px;
     }
 
     footer img {
-        height: 25vh;
-       }
+        height: 18vh;
+    }
 }
