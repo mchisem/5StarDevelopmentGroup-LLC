@@ -283,7 +283,7 @@ footer img {
 /***************/
 @media only screen and (max-width: 768px) {
     #s2 {
-        top: 60%;
+        top: 60% !important;
     }
 
     #s2 aside h4 {
