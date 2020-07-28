@@ -524,8 +524,12 @@ footer img {
 /***************/
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
+    body {
+        background-color: yellowgreen;
+    }
+
     #s3 {
-        top: 350%;
+        top: 530%;
     }
 
     #s3 h1 {
