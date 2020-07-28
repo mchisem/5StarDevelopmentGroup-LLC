@@ -255,7 +255,7 @@ footer img {
         padding: 25%;
         text-align: center !important;
         align-items: center !important;
-        justify-content: center !important;
+        justify-content: center;
     }
 
     #s1 h1 {
