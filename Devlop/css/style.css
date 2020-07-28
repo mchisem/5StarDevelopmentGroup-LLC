@@ -573,16 +573,10 @@ footer img {
     }
 
     .footer-link {
-        font-size: 12px;
+        font-size: 13px;
     }
 
     footer img {
         height: 18vh;
     }
 }
-/* 
-@media only screen and (max-width: 900px) {
-    footer {
-        top: 395%;
-    }
-} */
