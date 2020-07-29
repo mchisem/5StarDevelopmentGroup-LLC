@@ -347,8 +347,8 @@ img {
 /***************/
 @media only screen and (max-width: 768px) {
     #s3 {
-        /* position: relative; */
-        top: 180% !important;
+        position: relative;
+        margin-top: 180% !important;
     }
 
     img {
