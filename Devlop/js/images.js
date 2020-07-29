@@ -17,12 +17,14 @@ var nav = document.getElementById("navbar-nav");
 var burger = document.getElementById("burger");
 var appear = document.querySelector(".appear");
 
-burger.addEventListener("click", function () {
+const navAppear = () => {
+  burger.addEventListener("click", function () {
     console.log("help");
     nav.classList.toggle("appear");
-
 });
+}
 
+navAppear();
 
 // lightbox function
 // Variables
