@@ -363,7 +363,7 @@ footer img {
         padding-bottom: 6%;
         display: flex;
         flex-direction: column;
-        align-items: center;
+        /* align-items: center; */
     }
 
     #s2 img {
