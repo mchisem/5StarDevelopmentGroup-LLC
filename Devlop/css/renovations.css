@@ -355,8 +355,8 @@ img {
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     #s3 {
-        position: relative;
-        margin-top: 180% !important;
+        /* position: relative; */
+        top: 180% !important;
     }
 
     img {
