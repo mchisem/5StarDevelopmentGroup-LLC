@@ -6,9 +6,9 @@ var appear = $(".appear");
 
 const navAppear = () => {
      burger.on('click', () => {
-        event.preventDefault();
         console.log("help");
         $(navBar).toggleClass("appear", appear);
+        event.preventDefault();
      });
 }
 
@@ -27,7 +27,6 @@ var nav = $("#main-header")
 
 $(parent).on("click", event => {
   if(event.target.className === "image") {
-    event.preventDefault();
     console.log(event.target)
     $(modal).css("display", "block");
 
@@ -36,12 +35,13 @@ $(parent).on("click", event => {
     $(content).removeClass("hide");
     $(span).removeClass("hide");  
     $(nav).addClass("hide");
+
+    event.preventDefault();
   }
 })
 
 // When the user clicks on (x), close the modal
 $(span).on("click", () => {
-    event.preventDefault();
     $(modal).css("display", "none");
     $(content).addClass("hide");
     $(nav).removeClass("hide");
