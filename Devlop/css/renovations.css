@@ -345,9 +345,7 @@ img {
 /***************/
 /* section 3 */
 /***************/
-
 @media only screen and (max-width: 768px) {
-    /* For mobile phones: */
     #s3 {
         /* position: relative; */
         top: 180% !important;
@@ -370,6 +368,8 @@ img {
     }
 
     #s3 a {
+        position: static;
+        bottom: 0;
         margin-top: 4%;
     }
 }
