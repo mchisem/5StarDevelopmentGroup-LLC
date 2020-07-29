@@ -387,3 +387,19 @@ img:hover {
         margin-top: 4%;
     }
 }
+
+/***************/
+/* light box */
+/***************/
+@media only screen and (max-width: 768px) {
+    .modal-content {
+        top: 20%;
+        height: 100%;
+        width: 100% !important;
+    }
+    
+    #close {
+        top: 12%;
+    }
+
+}
