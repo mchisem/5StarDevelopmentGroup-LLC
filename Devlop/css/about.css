@@ -367,6 +367,7 @@ footer img {
         padding-bottom: 3%;
         height: 30.5vh;
         max-width: 100%;
+        clear: both;
     }
 
     #s2 aside p {
