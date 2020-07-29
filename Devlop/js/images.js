@@ -1,17 +1,28 @@
 // navbar function
 // variable
-var nav = $("#navbar-nav");
-var burger = $("#burger");
-var appear = $(".appear");
+// var nav = $("#navbar-nav");
+// var burger = $("#burger");
+// var appear = $(".appear");
 
-const navAppear = () => {
-     burger.on('click', () => {
-        console.log("help");
-        $(nav).toggleClass("appear", appear);
-     });
-}
+// const navAppear = () => {
+//      burger.on('click', () => {
+//         console.log("help");
+//         $(nav).toggleClass("appear", appear);
+//      });
+// }
 
-navAppear();
+// navAppear();
+
+var nav = document.getElementById("navbar-nav");
+var burger = document.getElementById("burger");
+var appear = document.querySelector(".appear");
+
+burger.addEventListener("click", function () {
+    console.log("help");
+    nav.classList.toggle("appear");
+
+});
+
 
 // lightbox function
 // Variables
