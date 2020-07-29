@@ -367,4 +367,8 @@ img {
         margin: .5% 0 2% 0;
         max-width: 100%;
     }
+
+    #s3 a {
+        margin-top: 4%;
+    }
 }
