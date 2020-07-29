@@ -392,7 +392,7 @@ footer img {
 /***************/
 @media only screen and (max-width: 768px) {
     footer {
-        top: 590%;
+        top: 580%;
         margin-bottom: 0;
         height: 31vh;
         width: 100%;
