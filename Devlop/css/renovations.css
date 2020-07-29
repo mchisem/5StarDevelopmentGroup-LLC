@@ -20,7 +20,7 @@ body {
     line-height: 23px;
     font-weight: 500;
     width: 100%;
-box-shadow: 0 1px 0 rgba(0,0,0,.1) !important;
+    box-shadow: 0 1px 0 rgba(0,0,0,.1) !important;
     -moz-box-shadow: 0 1px 0 rgba(0,0,0,.1);
     -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.1);
 }
@@ -74,13 +74,6 @@ li {
     background-image: url(../images/renovations/Napa28.jpg);
     background-size: cover;
     background-position: 50%;
-}
-
-@media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    #s1 {
-        top: 17% !important;
-    }
 }
 
 #s1-ral {
@@ -331,11 +324,26 @@ img {
     opacity: 1 !important;
 }
 
+/***************/
+/* section 1 */
+/***************/
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    #s1,
+    #s1-ral,
+    #s1-fairfield {
+        top: 17% !important;
+        max-width: 100%;
+    }
+}
+
+/***************/
 /* section 2 */
 /***************/
 @media only screen and (max-width: 768px) {
     #s2 {
         top: 84%;
+        max-width: 100%;
     } 
 }
 
