@@ -360,10 +360,10 @@ img:hover {
 /* section 3 */
 /***************/
 @media only screen and (max-width: 768px) {
-    #s3 {
-        /* position: relative; */
-        /* margin-top: 180% !important; */
-    }
+    /* #s3 {
+        position: relative;
+        margin-top: 180% !important;
+    } */
 
     img {
         vertical-align: middle;
@@ -395,7 +395,8 @@ img:hover {
     .modal-content {
         top: 20%;
         height: 100%;
-        width: 100% !important;
+        width: 80% !important;
+        right: 5%;
     }
     
     #close {
