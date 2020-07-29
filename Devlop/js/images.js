@@ -24,8 +24,6 @@ $(parent).on("click", event => {
   if(event.target.className === "image") {
     // console.log(event.target)
     $(modal).css("display", "block");
-
-    // $(modalImg).src = event.target.src
     $(modalImg).attr("src", event.target.src)
     $(content).removeClass("hide");
     $(span).removeClass("hide");  
