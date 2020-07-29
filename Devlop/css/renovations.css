@@ -363,7 +363,7 @@ img {
         vertical-align: middle;
         margin: auto;
         height: 42vh !important;
-        margin: .5% 0 2% 0;
+        /* margin: .5% 0 2% 0; */
         max-width: 100%;
     }
 
