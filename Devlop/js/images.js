@@ -27,7 +27,7 @@ $(parent).on("click", event => {
     $(modalImg).attr("src", event.target.src)
     $(content).removeClass("hide");
     $(span).removeClass("hide");  
-    $(nav).addClass("hide");
+    // $(nav).addClass("hide");
 
     event.preventDefault();
   }
@@ -37,5 +37,5 @@ $(parent).on("click", event => {
 $(span).on("click", () => {
     $(modal).css("display", "none");
     $(content).addClass("hide");
-    $(nav).removeClass("hide");
+    // $(nav).removeClass("hide");
 });
