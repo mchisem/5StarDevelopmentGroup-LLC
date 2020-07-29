@@ -19,7 +19,7 @@ var appear = document.querySelector(".appear");
 
 burger.addEventListener("click", function () {
     console.log("help");
-    nav.classList.toggle("appear", appear);
+    nav.classList.add("appear");
 });
 
 // lightbox function
