@@ -371,6 +371,7 @@ img:hover {
         height: 39.5vh !important;
         margin: .5% 0 2% 0;
         max-width: 100%;
+        left: 0;
     }
 
     .image.vertical {
@@ -379,6 +380,7 @@ img:hover {
         height: 85.5vh !important;
         margin: .5% 0 2% 0;
         max-width: 100%;
+        left: 0;
     }
 
     #s3 a {
