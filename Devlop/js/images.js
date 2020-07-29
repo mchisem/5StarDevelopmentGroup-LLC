@@ -1,54 +1,45 @@
 // navbar function
 // variable
-// var nav = $("#navbar-nav");
-// var burger = $("#burger");
-// var appear = $(".appear");
+var navBar = $("#navbar-nav");
+var burger = $("#burger");
+var appear = $(".appear");
 
-// const navAppear = () => {
-//      burger.on('click', () => {
-//         console.log("help");
-//         $(nav).toggleClass("appear", appear);
-//      });
-// }
+const navAppear = () => {
+     burger.on('click', () => {
+        console.log("help");
+        $(navBar).toggleClass("appear", appear);
+     });
+}
 
-// navAppear();
-
-var nav = document.getElementById("navbar-nav");
-var burger = document.getElementById("burger");
-var appear = document.querySelector(".appear");
-
-burger.addEventListener("click", function () {
-    console.log("help");
-    nav.classList.add("appear");
-});
+navAppear();
 
 // lightbox function
 // Variables
-var modal = document.getElementById("back");
-var span = document.querySelector("#close");
-var images = document.querySelector(".image");
-var modalImg = document.querySelector(".modal-content");
-var content = document.querySelector("#content");
-var nav = document.querySelector("#main-header");
+var modal = $("#back")
+var span = $("#close")
+var images = $(".image")
+var modalImg = $(".modal-content")
+var content = $("#content")
+var parent = $(".container")
+var nav = $("#main-header")
 
-// Event delegation for images
-const parent = document.querySelector(".container");
 
-parent.addEventListener("click", event => {
+$(parent).on("click", event => {
   if(event.target.className === "image") {
-  console.log(event.target)
-  modal.style.display = "block";
-  //if you console.log(this) -> returns the whole window object which has no src value
-  //using event.target can make us target exactly what we need
-  modalImg.src = event.target.src;
-  content.classList.remove("hide");
-  span.classList.remove("hide");
+    console.log(event.target)
+    $(modal).css("display", "block");
+
+    // $(modalImg).src = event.target.src
+    $(modalImg).attr("src", event.target.src)
+    $(content).removeClass("hide");
+    $(span).removeClass("hide");  
+    $(nav).addClass("hide");
   }
-  })
+})
 
 // When the user clicks on (x), close the modal
-span.addEventListener("click",() => {
-    modal.style.display = "none";
-    content.classList.add("hide");
-    nav.classList.add("hide");
+$(span).on("click", () => {
+    $(modal).css("display", "none");
+    $(content).addClass("hide");
+    $(nav).removeClass("hide");
 });
