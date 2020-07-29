@@ -331,6 +331,14 @@ img {
     opacity: 1 !important;
 }
 
+/* section 2 */
+/***************/
+@media only screen and (max-width: 768px) {
+    #s2 {
+        top: 84%;
+    } 
+}
+
 /***************/
 /* section 3 */
 /***************/
@@ -347,6 +355,7 @@ img {
         margin: auto;
         height: 42vh !important;
         margin: .5% 0 2% 0;
+        max-width: 100%;
     }
 
     .image.vertical {
@@ -354,5 +363,6 @@ img {
         margin: auto;
         height: 85.5vh !important;
         margin: .5% 0 2% 0;
+        max-width: 100%;
     }
 }
