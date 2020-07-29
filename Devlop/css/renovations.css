@@ -171,10 +171,14 @@ li {
 
 img {
     vertical-align: middle !important;
-    position: relative;
+    position: relative !important;
     float: left;
     height: 36vh;
-    margin: .5% 0 .5% 1%;
+    margin: .5% 0 .5% 1% !important;
+}
+
+img:hover {
+    cursor: pointer;
 }
 
 /* fairfield vertical image container */
@@ -225,7 +229,7 @@ img {
 
 .modal-content {
     position: fixed !important;
-    top: 19%;
+    top: 13%;
     height: 75vh;
     width: 70% !important;
     right: 15%;
@@ -237,10 +241,14 @@ img {
     position: fixed !important;
     font-size: 30px !important;
     z-index: 999;
-    top: 17%;
+    top: 9%;
     right: 10%;
     font-weight: 700;
     color: white !important;
+}
+
+#close:hover {
+    cursor: pointer;
 }
 
 /***************/
