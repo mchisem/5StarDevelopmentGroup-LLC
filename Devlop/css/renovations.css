@@ -288,8 +288,8 @@ img {
       }
 
     .navbar img {
-        height: 13vh;
-        width: 21vh;
+        height: 13vh !important;
+        width: 21vh !important;
     }
 
     #navbar-nav {
@@ -352,8 +352,8 @@ img {
 /***************/
 @media only screen and (max-width: 768px) {
     #s3 {
-        position: relative;
-        margin-top: 180% !important;
+        /* position: relative; */
+        /* margin-top: 180% !important; */
     }
 
     img {
