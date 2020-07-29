@@ -4,15 +4,10 @@ var navBar = $("#navbar-nav");
 var burger = $("#burger");
 var appear = $(".appear");
 
-const navAppear = () => {
-     burger.on('click', () => {
-        console.log("help");
-        $(navBar).toggleClass("appear", appear);
-        event.preventDefault();
-     });
-}
-
-navAppear();
+burger.on('click', () => {
+  $(navBar).toggleClass("appear", appear);
+  event.preventDefault();
+});
 
 // lightbox function
 // Variables
@@ -27,7 +22,7 @@ var nav = $("#main-header")
 
 $(parent).on("click", event => {
   if(event.target.className === "image") {
-    console.log(event.target)
+    // console.log(event.target)
     $(modal).css("display", "block");
 
     // $(modalImg).src = event.target.src
