@@ -422,7 +422,7 @@ img:hover {
         top: 31%;
         height: 85vh;
         width: 100% !important;
-        /* right: 20% !important; */
+        right: 0% !important;
     }
     
     #close {
