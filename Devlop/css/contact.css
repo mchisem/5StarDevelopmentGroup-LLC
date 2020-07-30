@@ -207,13 +207,6 @@ footer img {
     background-color: black;
 }
 
-@media only screen and (min-width: 992px) {
-.navbar-expand-lg #navbar-nav .nav-link {
-    padding-right: .5rem;
-    padding-left: .5rem;
-}
-}
-
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     body {
@@ -234,22 +227,27 @@ footer img {
 
     #navbar-nav {
         position: absolute !important;
-        right: 0px !important;
+        right: -1000px;
         height: 100vh !important;
-        width: 50%;
-        top: 16vh !important;
+        width: 40%;
+        top: 16.3vh !important;
         background-color: white;
         display: flex !important;
         flex-direction: column !important;
         align-items: center !important;
         opacity: 0;
-        }      
+        box-shadow: left black 0px 5px 6px 0px;
+        z-index: -999;
+        border-left: 15px solid white;
+        transition: .4s ease-in-out;
+    }      
 
     .nav-link {
         z-index: 999;
         font-size: 20px;
         margin: 30.5% 0 30.5% 2%;
         text-align: center;
+        padding-left: 5%;
         }
 
     #burger {
@@ -259,6 +257,13 @@ footer img {
 
 .appear {
     opacity: 1 !important;
+    z-index: 1111;
+    transition: .4s ease-in-out;
+    right: 0px !important;
+    height: 100vh !important;
+    width: 40%;
+    top: 16.3vh !important;
+    position: absolute !important;
 }
 
 /***************/

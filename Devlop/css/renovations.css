@@ -269,32 +269,6 @@ img:hover {
 /***************/
 /* navbar */
 /***************/
-.x {
-    position: relative;
-    height: 15px;
-    width: 25px;  /* ...but maintain 1:1 aspect ratio */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.x::before,
-.x::after {
-    position: absolute;
-    content: '';
-    width: 100%;
-    height: 4px; /* cross thickness */
-    background-color: black;
-}
-
-.x::before {
-    transform: rotate(45deg);
-}
-
-.x::after {
-    transform: rotate(-45deg);
-}
-
 #burger {
     display: none;
 }
@@ -310,13 +284,6 @@ img:hover {
     background-color: black;
 }
 
-@media only screen and (min-width: 992px) {
-.navbar-expand-lg #navbar-nav .nav-link {
-        padding-right: .5rem;
-        padding-left: .5rem;
-    }
-}
-
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     body {
@@ -326,27 +293,30 @@ img:hover {
     #main-header {
         position: relative;
         margin-top: 0%;
-        width: 100% !important;
+        width: 100%;
         margin: 0;
       }
 
     .navbar img {
-        height: 13vh !important;
-        width: 21vh !important;
+        height: 13vh;
+        width: 21vh;
     }
 
     #navbar-nav {
         position: absolute !important;
-        right: 0px !important;
+        right: -1000px;
         height: 100vh !important;
-        width: 50%;
-        top: 16vh !important;
+        width: 40%;
+        top: 16.3vh !important;
         background-color: white;
         display: flex !important;
         flex-direction: column !important;
         align-items: center !important;
         opacity: 0;
-        z-index: -1;
+        box-shadow: left black 0px 5px 6px 0px;
+        z-index: -999;
+        border-left: 15px solid white;
+        transition: .4s ease-in-out;
     }      
 
     .nav-link {
@@ -354,7 +324,8 @@ img:hover {
         font-size: 20px;
         margin: 30.5% 0 30.5% 2%;
         text-align: center;
-    }
+        padding-left: 5%;
+        }
 
     #burger {
         display: block;
@@ -363,7 +334,13 @@ img:hover {
 
 .appear {
     opacity: 1 !important;
-    z-index: 999;
+    z-index: 1111;
+    transition: .4s ease-in-out;
+    right: 0px !important;
+    height: 100vh !important;
+    width: 40%;
+    top: 16.3vh !important;
+    position: absolute !important;
 }
 
 /***************/

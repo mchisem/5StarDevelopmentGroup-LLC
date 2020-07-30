@@ -467,7 +467,6 @@ footer img {
 .appear {
     opacity: 1 !important;
     z-index: 1111;
-    transform: scaleX(0px) !important;
     transition: .4s ease-in-out;
     right: 0px !important;
     height: 100vh !important;
