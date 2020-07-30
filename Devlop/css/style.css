@@ -446,7 +446,7 @@ footer img {
         align-items: center !important;
         opacity: 0;
         box-shadow: left black 0px 5px 6px 0px;
-        z-index: -6;
+        z-index: -999;
     }      
 
     .nav-link {
@@ -463,7 +463,7 @@ footer img {
 
 .appear {
     opacity: 1 !important;
-    z-index: 999;
+    z-index: 1111;
 }
 
 /***************/
