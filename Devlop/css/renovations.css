@@ -413,7 +413,8 @@ img:hover {
         margin: .5% 0 2% 0 !important;
         padding-left: 1%;
         padding-right: 2%;
-        padding: transparent;
+        background: transparent;
+        background-color: transparent;
     }
 
     .image.vertical {
