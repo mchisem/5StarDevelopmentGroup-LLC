@@ -386,10 +386,10 @@ img:hover {
 /* section 3 */
 /***************/
 @media only screen and (max-width: 768px) {
-    /* #s3 {
-        position: relative;
-        margin-top: 180% !important;
-    } */
+    #s3 {
+        /* position: relative; */
+        top: 200%;
+    }
 
     img {
         vertical-align: middle;
