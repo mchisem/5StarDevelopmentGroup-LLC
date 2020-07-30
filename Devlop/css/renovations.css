@@ -427,7 +427,8 @@ img:hover {
     }
     
     #close {
-        top: 12%;
+        top: 14%;
+        right: 1%;
     }
 
 }
