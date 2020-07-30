@@ -338,6 +338,7 @@ img:hover {
         flex-direction: column !important;
         align-items: center !important;
         opacity: 0;
+        z-index: -1;
     }      
 
     .nav-link {
@@ -354,6 +355,7 @@ img:hover {
 
 .appear {
     opacity: 1 !important;
+    z-index: 999;
 }
 
 /***************/
