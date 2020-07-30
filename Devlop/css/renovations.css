@@ -421,7 +421,7 @@ img:hover {
     .modal-content {
         top: 31%;
         height: 85vh;
-        max-width: 100% !important;
+        width: 100% !important;
         /* right: 20% !important; */
     }
     
