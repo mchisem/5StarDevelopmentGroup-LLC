@@ -193,7 +193,7 @@ img:hover {
     background-color: #fea30b !important;
     text-decoration: none;
     color: white !important;
-    padding: .5%;
+    padding: 6px 20px;
     font-weight: 600!important;
     font-size: 20px;
 }
