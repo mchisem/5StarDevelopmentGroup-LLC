@@ -365,7 +365,7 @@ img:hover {
     #s1-ral,
     #s1-fairfield {
         top: 19.5% !important;
-        max-width: 100%;
+        max-width: 100% !important;
         height: 40vh !important;
     }
 }
