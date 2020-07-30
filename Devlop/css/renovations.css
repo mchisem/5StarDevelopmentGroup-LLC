@@ -412,12 +412,6 @@ img:hover {
         margin: .5% 0 2% 0;
         max-width: 100%;
     }
-
-    #s3 a {
-        position: static;
-        bottom: 0;
-        margin-top: 4%;
-    }
 }
 
 /***************/
@@ -428,7 +422,7 @@ img:hover {
         top: 35%;
         height: 70%;
         width: 80% !important;
-        right: 20%;
+        right: 20% !important;
     }
     
     #close {
