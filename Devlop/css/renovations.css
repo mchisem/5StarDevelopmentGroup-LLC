@@ -298,8 +298,8 @@ img:hover {
       }
 
     .navbar img {
-        height: 13vh;
-        width: 21vh;
+        height: 13vh !important;
+        width: 21vh !important;
     }
 
     #navbar-nav {
