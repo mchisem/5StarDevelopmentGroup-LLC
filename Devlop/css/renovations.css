@@ -169,6 +169,14 @@ li {
     padding: 1.5% 0% 1.5% 1%;
 }
 
+#s3-ral {
+    top: 107% !important;
+}
+
+#s3-fair {
+    top: 105% !important;
+}
+
 img {
     vertical-align: middle !important;
     position: relative !important;
