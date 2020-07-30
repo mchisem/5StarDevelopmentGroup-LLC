@@ -420,7 +420,7 @@ img:hover {
 @media only screen and (max-width: 768px) {
     .modal-content {
         top: 31%;
-        height: 80vh;
+        height: 85vh;
         max-width: 100% !important;
         /* right: 20% !important; */
     }
