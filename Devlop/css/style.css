@@ -436,7 +436,7 @@ footer img {
 
     #navbar-nav {
         position: absolute !important;
-        right: 0px;
+        right: -1000px;
         height: 100vh !important;
         width: 40%;
         top: 16.3vh !important;
@@ -447,8 +447,8 @@ footer img {
         opacity: 0;
         box-shadow: left black 0px 5px 6px 0px;
         z-index: -999;
-        transform: scaleX(-1000px) !important;
         border-left: 15px solid white;
+        transition: .4s ease-in-out;
     }      
 
     .nav-link {
@@ -468,7 +468,12 @@ footer img {
     opacity: 1 !important;
     z-index: 1111;
     transform: scaleX(0px) !important;
-    transition: .6s ease-in-out;
+    transition: .4s ease-in-out;
+    right: 0px !important;
+    height: 100vh !important;
+    width: 40%;
+    top: 16.3vh !important;
+    position: absolute !important;
 }
 
 /***************/
