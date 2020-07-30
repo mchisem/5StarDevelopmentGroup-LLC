@@ -438,7 +438,7 @@ footer img {
         position: absolute !important;
         right: 0px;
         height: 100vh !important;
-        width: 50%;
+        width: 40%;
         top: 16.3vh !important;
         background-color: white;
         display: flex !important;
@@ -448,6 +448,7 @@ footer img {
         box-shadow: left black 0px 5px 6px 0px;
         z-index: -999;
         transform: scaleX(-1000px) !important;
+        border-left: 15px solid white;
     }      
 
     .nav-link {
@@ -455,6 +456,7 @@ footer img {
         font-size: 20px;
         margin: 30.5% 0 30.5% 2%;
         text-align: center;
+        padding-left: 5%;
         }
 
     #burger {
@@ -473,7 +475,6 @@ footer img {
 /* section 1 */
 /***************/
 @media only screen and (max-width: 768px) {
-    /* For mobile phones: */
     #s1 {
         top: 18% !important;
     }
