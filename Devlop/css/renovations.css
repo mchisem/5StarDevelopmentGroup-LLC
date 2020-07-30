@@ -398,6 +398,10 @@ img:hover {
         align-items: center;
     }
 
+    #s3-ral {
+        top: 200% !important;
+    }
+
     img {
         clear: both;
         max-width: 100%;
