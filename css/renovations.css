@@ -197,7 +197,9 @@ img:hover {
 
 .section-3 a {
     position: relative;
-    margin-top: 2%;
+    /* margin-top: 2%; */
+    /* clear: both !important; */
+    bottom: 0%;
     background-color: #fea30b !important;
     text-decoration: none;
     color: white !important;
