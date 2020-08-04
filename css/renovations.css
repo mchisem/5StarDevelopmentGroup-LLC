@@ -196,7 +196,7 @@ img:hover {
 }
 
 .section-3 a {
-    position: relative;
+    position: absolute;
     /* margin-top: 2%; */
     /* clear: both !important; */
     bottom: 0%;
