@@ -201,6 +201,7 @@ img:hover {
     /* clear: both !important; */
     bottom: 0;
     left: 0;
+    margin-bottom: 2%;
     background-color: #fea30b !important;
     text-decoration: none;
     color: white !important;
