@@ -191,8 +191,9 @@ img:hover {
 
 /* fairfield vertical image container */
 .image.vertical {
+    float: left;
     height: 35.5vh;
-    margin-bottom: 2%;
+    margin-bottom: 2% !important;
 }
 
 /* .section-3 a {
