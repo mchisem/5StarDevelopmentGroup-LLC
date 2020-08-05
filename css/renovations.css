@@ -208,8 +208,8 @@ img:hover {
 } */
 
 .section-3 a {
-    position: relative;
-    margin-top: 2%;
+    position: relative !important;
+    margin-top: 2% !important;
     background-color: #fea30b !important;
     text-decoration: none;
     color: white !important;
