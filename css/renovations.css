@@ -195,10 +195,8 @@ img:hover {
     margin-bottom: 2%;
 }
 
-.section-3 a {
+/* .section-3 a {
     position: absolute;
-    /* margin-top: 2%; */
-    /* clear: both !important; */
     bottom: -3% !important;
     left: 25%;
     background-color: #fea30b !important;
@@ -207,7 +205,19 @@ img:hover {
     padding: 6px 20px;
     font-weight: 600!important;
     font-size: 20px;
+} */
+
+.section-3 a {
+    position: relative;
+    margin-top: 2%;
+    background-color: #fea30b !important;
+    text-decoration: none;
+    color: white !important;
+    padding: 6px 20px;
+    font-weight: 600!important;
+    font-size: 20px;
 }
+
 
 /***************/
 /* light box container */
